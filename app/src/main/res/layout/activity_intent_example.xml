@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.IntentExample">
+
+    <Button
+        android:id="@+id/action_view"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_VIEW"
+        android:textSize="@dimen/sp18" />
+
+    <Button
+        android:id="@+id/action_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_MAIN"
+        android:textSize="@dimen/sp18" />
+
+    <Button
+        android:id="@+id/action_pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_PICK"
+        android:textSize="@dimen/sp18" />
+
+    <Button
+        android:id="@+id/action_chooser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_CHOOSER"
+        android:textSize="@dimen/sp18" />
+
+    <Button
+        android:id="@+id/action_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_DIAL"
+        android:textSize="@dimen/sp18" />
+
+    <Button
+        android:id="@+id/action_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_CALL"
+        android:textSize="@dimen/sp18" />
+
+    <Button
+        android:id="@+id/action_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_SEND"
+        android:textSize="@dimen/sp18" />
+
+    <Button
+        android:id="@+id/action_sendto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_SENDTO"
+        android:textSize="@dimen/sp18" />
+
+</LinearLayout>
